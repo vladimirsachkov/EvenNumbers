@@ -2,7 +2,7 @@ package ru.specialist.EvenNumbers;
 
 import java.util.ArrayList;
 
-public class arrays {
+public class EvenNumbers {
     public static void main(String[] args) {
         //Task #1
         int[] array = {8, 10, 5, 20, 7, 15, 18};
