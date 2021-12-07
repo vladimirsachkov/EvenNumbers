@@ -53,9 +53,6 @@ public class EvenNumbers {
         return arrayEvenNumbers;
     }
 
-    ;
-
-
     /*This method that return count of even
     numbers in the input array.*/
     public static int arrayEvenNumbersCount(int[] array) {
@@ -69,8 +66,6 @@ public class EvenNumbers {
 
         return numberSortedSize;
     }
-
-    ;
 
     /*This method that show all numbers of array*/
     public static void showArray(int[] array) {
