@@ -32,18 +32,9 @@ public class EvenNumbers {
     /*This is a method what takes an array
      * and returns an array with only even number */
     public static int[] arrayEvenNumbers(int[] array) {
-        int numberSortedSize = 0;
-
-        for (int i = 0; i < array.length; i++) {
-            if ((array[i] % 2) == 0) {
-                numberSortedSize++;
-            }
-        }
-
+        int numberSortedSize = arrayEvenNumbersCount(array);
         int[] arrayEvenNumbers = new int[numberSortedSize];
-
         int numberSortedId = 0;
-
         for (int i = 0; i < array.length; i++) {
             if ((array[i] % 2) == 0) {
                 arrayEvenNumbers[numberSortedId] = array[i];
